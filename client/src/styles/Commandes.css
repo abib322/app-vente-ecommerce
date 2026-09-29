@@ -1,0 +1,28 @@
+.liste-commandes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card-commande {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #007bff;
+}
+
+.card-commande h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.card-commande p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.card-commande strong {
+  color: #007bff;
+}
